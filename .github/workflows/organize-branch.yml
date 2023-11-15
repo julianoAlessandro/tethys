@@ -1,0 +1,26 @@
+
+name: Organize Branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  organize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Create frontend branch
+        run: |
+          git checkout -b frontend
+          git push --set-upstream origin frontend
+
+      - name: Create backend branch API Indice Pluviometrico
+        run: |
+          git checkout -b backend-api-indice-pluviometrico
+          git push --set-upstream origin backend-api-indice-pluviometrico
