@@ -21,16 +21,14 @@ jobs:
           git config --global user.name 'GitHub Actions'
           git config --global user.email '<>'
 
-      - name: Create frontend branch
+      - name: Create a specific branch for frontend folder
         run: |
           git checkout -b frontend
-          git add frontend/*
-          git commit -m "Sync frontend"
-          git push --set-upstream origin frontend
+          git worktree add -B frontend ../frontend origin/frontend
 
       - name: Create backend branch API Indice Pluviometrico
         run: |
           git checkout -b backend-api-indice-pluviometrico
-          git add backend/api-indice-pluviometrico/*
-          git commit -m "Sync backend api indice pluviometrico"
-          git push --set-upstream origin backend-api-indice-pluviometrico
+          git worktree add -B backend-api-indice-pluviometrico ../backend-api-indice-pluviometrico origin/backend-api-indice-pluviometrico
+
+
