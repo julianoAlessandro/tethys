@@ -7,6 +7,7 @@
 # web os meus dados
 
 from fastapi import FastAPI, HTTPException
+from Classes import CadastroUsuario as c
 
 app = FastAPI()
 
@@ -14,7 +15,6 @@ app = FastAPI()
 @app.get("/weather/{duracao},{latitude},{longitude}")  # decoration
 def Previsao(duracao: int, latitude: float, longitude: float):
     try:
-        import CadastroUsuario as c
 
         usuarios = c.CadastroUsuario()
         valores = usuarios.realizarPrevisao(duracao, latitude, longitude)
@@ -26,8 +26,6 @@ def Previsao(duracao: int, latitude: float, longitude: float):
 @app.get("/weather/{latitude},{longitude}")
 def Indice(latitude: float, longitude: float):
     try:
-        import CadastroUsuario as c
-
         usuarios = c.CadastroUsuario()
         valores = usuarios.BuscarPrecipitacao(latitude, longitude)
 
