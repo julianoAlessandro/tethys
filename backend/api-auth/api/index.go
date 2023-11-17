@@ -1,4 +1,4 @@
-package main
+package handler
 
 import (
 	"net/http"
@@ -17,7 +17,7 @@ type User struct {
 
 var db *gorm.DB
 
-func main() {
+func Handler(c *gin.Context) {
 	// Inicializa o banco de dados SQLite
 	var err error
 	db, err = gorm.Open(sqlite.Open("test.db"), &gorm.Config{})
@@ -90,5 +90,5 @@ func main() {
 		c.JSON(http.StatusOK, gin.H{"message": "Login bem-sucedido", "email": user.Email})
 	})
 
-	r.Run(":8080")
+	r.ServeHTTP(c.Writer, c.Request)
 }
