@@ -1,4 +1,4 @@
-module api-auth
+module tethys-api-auth.vercel.app/api
 
 go 1.21.3
 
