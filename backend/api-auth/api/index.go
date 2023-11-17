@@ -11,9 +11,8 @@ import (
 
 type User struct {
 	gorm.Model
-	Username string `json:"username" binding:"required"`
-	Password string `json:"password" binding:"required"`
 	Email    string `json:"email" binding:"required,email"`
+	Password string `json:"senha" binding:"required"`
 }
 
 var db *gorm.DB
@@ -41,7 +40,7 @@ func main() {
 
 		// Verifica se o nome de usuário já está em uso
 		var existingUser User
-		if result := db.Where("username = ?", newUser.Username).First(&existingUser); result.Error == nil {
+		if result := db.Where("email = ?", newUser.Email).First(&existingUser); result.Error == nil {
 			c.JSON(http.StatusConflict, gin.H{"error": "Nome de usuário já em uso"})
 			return
 		}
@@ -65,8 +64,8 @@ func main() {
 	// Rota para lidar com o envio do formulário de login
 	r.POST("/login", func(c *gin.Context) {
 		var loginData struct {
-			Username string `json:"username" binding:"required"`
-			Password string `json:"password" binding:"required"`
+			Username string `json:"email" binding:"required"`
+			Password string `json:"senha" binding:"required"`
 		}
 
 		if err := c.ShouldBindJSON(&loginData); err != nil {
@@ -77,7 +76,7 @@ func main() {
 		// Busca o usuário no banco de dados
 		var user User
 		if result := db.Where("username = ?", loginData.Username).First(&user); result.Error != nil {
-			c.JSON(http.StatusUnauthorized, gin.H{"error": "Credenciais inválidas"})
+			c.JSON(http.StatusUnauthorized, gin.H{"error": "Usuário não encontrado"})
 			return
 		}
 
@@ -88,7 +87,7 @@ func main() {
 		}
 
 		// Autenticação bem-sucedida
-		c.JSON(http.StatusOK, gin.H{"message": "Login bem-sucedido", "username": user.Username})
+		c.JSON(http.StatusOK, gin.H{"message": "Login bem-sucedido", "email": user.Email})
 	})
 
 	r.Run(":8080")
