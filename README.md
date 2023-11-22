@@ -15,7 +15,7 @@ O objetivo desse documento é descrever o Projeto Integrador (PI) do 3º períod
 - <a href="https://github.com/RafaelAntunes2">Rafael Antunes</a><br>
  Responsabilidades: Consumir uma API destinada ao envio de SMS, para os usuarios,além da utilização do frameWork fastAPI e hospedagem do código Python.<br>
 - <a href="https://github.com/ogustavobrianti">Gustavo Brianti</a><br>
- Responsabilidades:Frontend, utilização de FrameWork Bootstrap, responsividade do site, e utilização da linguagem javascript.<br>
+ Responsabilidades:Frontend, utilização de FrameWork Bootstrap,responsividade do site, e utilização da linguagem javascript.<br>
 - <a href="https://github.com/cwilliam956">Celso William</a><br>
 Responsabilidades:Frontend,utilização do FrameWork Boostrap,responsividade do site,e utilização da linguagem javascript.<br>
 
@@ -77,8 +77,8 @@ O resultado do PI será apresentado em um seminário. Cada grupo terá de 20 min
 em cada branch para cada integrante do grupo.
 - <a href= "https://github.com/gabrielalmir/tethys/tree/api-auth">API-auth</a><br>
 realizar a autenticação das APIs, criadas por juliano e Rafael.<br>
-- <a href= "https://github.com/gabrielalmir/tethys/tree/api-envio-sms">api-envio-sms</a><br>
-API: TWILIO<BR>
+- <a href= "https://github.com/gabrielalmir/tethys/tree/api-envio-sms">api-envio-sms</a>
+API:TWILIO<BR>
 API destinada ao envio de SMS,para os usuarios que se cadastraram  no nosso site,logo tal API, encaminhará uma mensagem de alerta  ao usuário caso, os indices pluviométricos atinjam o parametro calculado e estipulado pelo grupo.<br>
 - <a href = "https://github.com/gabrielalmir/tethys/tree/api-indice-pluviometrico">api-indice-pluviometrico</a><br>
 API: MICROSOFT AZURE<br>
