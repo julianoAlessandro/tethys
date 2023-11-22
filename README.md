@@ -7,6 +7,18 @@ Projeto Integrador - Cidades Inteligentes: Desenvolvimento de um Sistema de Aler
 
 O objetivo desse documento é descrever o Projeto Integrador (PI) do 3º período de DSM.
 
+## Integrantes 👩‍💻👨‍💻
+- <a href = "https://github.com/gabrielalmir">Gabriel Almir</a>
+ Responsabilidades: Backend,utilizando a linguagem de Programação PHP,além disso sendo responsável pela organização da equipe.<br>
+- < a href= "https://github.com/julianoAlessandro">Juliano Alessandro dos Santos </a>
+ Responsabilidades: Consumo de API, utilização de FrameWork fastAPI, e hospedagem do código Python.<br>
+- < a href="https://github.com/RafaelAntunes2">Rafael Antunes </a>
+ Responsabilidades: Consumir uma API destinada ao envio de SMS, para os usuarios,além da utilização do frameWork fastAPI e hospedagem do código Python.<br>
+- < a href="https://github.com/ogustavobrianti">Gustavo Brianti</a>
+ Responsabilidades:Frontend, utilização de FrameWork Bootstrap, responsividade do site, e utilização da linguagem javascript.<br>
+- <a href="https://github.com/cwilliam956">Celso William</a>
+Responsabilidades:Frontend,utilização do FrameWork Boostrap,responsividade do site,e utilização da linguagem javascript.<br>
+
 ## Introdução 📖
 
 O Projeto Pedagógico do Curso de Tecnologia em Desenvolvimento de Software Multiplataforma (DSM) da FATEC Itapira descreve o desenvolvimento de 6 Projetos Interdisciplinares (PIs), um em cada período do curso. O PI não é apenas uma junção de disciplinas, é, também, uma oportunidade de trabalho colaborativo entre os professores responsáveis pelas disciplinas, o coordenador do curso e os alunos. A aplicação das metodologias de ensino-aprendizagem baseadas em Projetos ou Problemas e a interdisciplinaridade auxiliarão no desenvolvimento das competências socioemocionais, tais como: autonomia, proatividade, trabalho em equipe, comunicação, resolução de problemas, entre outros. Cada PI constitui uma parte do Portifólio Digital do aluno, que será incrementado durante o curso.
@@ -60,11 +72,23 @@ A entrega será composta por:
 ## Apresentação 🚀
 
 O resultado do PI será apresentado em um seminário. Cada grupo terá de 20 minutos para a apresentação. Durante a apresentação os trabalhos serão avaliados pelos professores das disciplinas envolvidas no PI e demais convidados. Os colegas da turma irão participar ativamente respondendo a Avaliação por Pares. Ao final, cada aluno deve responder a Autoavaliação.
-## Branch do Projeto
+## Branch do Projeto  🔨
+  Nesta seção  do Projeto será  destinado a apresentar  as principais funcionalidades aplicadas a este projeto assim como demonstrar e detalhar  as etapas realizadas
+em cada branch para cada integrante do grupo.
 - <a href= "https://github.com/gabrielalmir/tethys/tree/api-auth">API-auth</a><br>
+realizar a autenticação das APIs, criadas por juliano e Rafael.<br>
 - <a href= "https://github.com/gabrielalmir/tethys/tree/api-envio-sms">api-envio-sms</a><br>
+API: TWILIO<BR>
+API destinada ao envio de SMS,para os usuarios que se cadastraram  no nosso site,logo tal API, encaminhará uma mensagem de alerta  ao usuário caso, os indices pluviométricos atinjam o parametro calculado e estipulado pelo grupo.<br>
 - <a href = "https://github.com/gabrielalmir/tethys/tree/api-indice-pluviometrico">api-indice-pluviometrico</a><br>
+API: MICROSOFT AZURE<br>
+Realizando o consumo desta API, os dados que serão retornados serão os indices pluviométricos, para uma determina localidade,dado uma determinada latitude e longitude,além disso com um terceiro parâmetro é possível estipular uma previsão de  umidade para aquela referida localdiade.
 - <a href= "https://github.com/gabrielalmir/tethys/tree/frontend">frontend</a><br>
+  Parte do Projeto destinado ao designer do site que será apresentado ao usuário que irá se cadastrar para o nosso sistema de alerta de alagamento.
+ - linguagem de marcação: HTML
+ - linguagem de desgner: CSS3
+ - FrameWork:bootstrap
+ - Linguagem de Programação:Javascript
 - <a href= "https://github.com/gabrielalmir/tethys/tree/task-alerta-alagamento">task-alerta-alagamento</a>
 
 
