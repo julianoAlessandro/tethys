@@ -77,7 +77,7 @@ O resultado do PI será apresentado em um seminário. Cada grupo terá de 20 min
 em cada branch para cada integrante do grupo.
 - <a href= "https://github.com/gabrielalmir/tethys/tree/api-auth">API-auth</a><br>
 realizar a autenticação das APIs, criadas por juliano e Rafael.<br>
-- <a href= "https://github.com/gabrielalmir/tethys/tree/api-envio-sms">api-envio-sms</a>
+- <a href= "https://github.com/gabrielalmir/tethys/tree/api-envio-sms">api-envio-sms</a><br>
 API:TWILIO<BR>
 API destinada ao envio de SMS,para os usuarios que se cadastraram  no nosso site,logo tal API, encaminhará uma mensagem de alerta  ao usuário caso, os indices pluviométricos atinjam o parametro calculado e estipulado pelo grupo.<br>
 - <a href = "https://github.com/gabrielalmir/tethys/tree/api-indice-pluviometrico">api-indice-pluviometrico</a><br>
