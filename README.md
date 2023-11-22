@@ -61,11 +61,11 @@ A entrega será composta por:
 
 O resultado do PI será apresentado em um seminário. Cada grupo terá de 20 minutos para a apresentação. Durante a apresentação os trabalhos serão avaliados pelos professores das disciplinas envolvidas no PI e demais convidados. Os colegas da turma irão participar ativamente respondendo a Avaliação por Pares. Ao final, cada aluno deve responder a Autoavaliação.
 ## Branch do Projeto
-<a href= "https://github.com/gabrielalmir/tethys/tree/api-auth">API-auth</a><br>
-<a href= "https://github.com/gabrielalmir/tethys/tree/api-envio-sms">api-envio-sms</a><br>
-<a href = "https://github.com/gabrielalmir/tethys/tree/api-indice-pluviometrico">api-indice-pluviometrico</a><br>
-<a href= "https://github.com/gabrielalmir/tethys/tree/frontend">frontend</a><br>
-<a href= "https://github.com/gabrielalmir/tethys/tree/task-alerta-alagamento">task-alerta-alagamento</a>
+- <a href= "https://github.com/gabrielalmir/tethys/tree/api-auth">API-auth</a><br>
+- <a href= "https://github.com/gabrielalmir/tethys/tree/api-envio-sms">api-envio-sms</a><br>
+- <a href = "https://github.com/gabrielalmir/tethys/tree/api-indice-pluviometrico">api-indice-pluviometrico</a><br>
+- <a href= "https://github.com/gabrielalmir/tethys/tree/frontend">frontend</a><br>
+- <a href= "https://github.com/gabrielalmir/tethys/tree/task-alerta-alagamento">task-alerta-alagamento</a>
 
 
 ## Referências
