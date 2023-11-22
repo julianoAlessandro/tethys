@@ -11,7 +11,7 @@ O objetivo desse documento é descrever o Projeto Integrador (PI) do 3º períod
 - <a href = "https://github.com/gabrielalmir">Gabriel Almir</a><br>
  Responsabilidades: Backend,utilizando a linguagem de Programação PHP,além disso sendo responsável pela organização da equipe.
 - <a href="https://github.com/julianoAlessandro">Juliano Alessandro dos Santos</a><br>
- Responsabilidades: Consumo de API, utilização de FrameWork fastAPI, e hospedagem do código Python.<br>
+ Responsabilidades: Consumo de API, utilização do FrameWork fastAPI, e hospedagem do código Python.<br>
 - <a href="https://github.com/RafaelAntunes2">Rafael Antunes</a><br>
  Responsabilidades: Consumir uma API destinada ao envio de SMS, para os usuarios,além da utilização do frameWork fastAPI e hospedagem do código Python.<br>
 - <a href="https://github.com/ogustavobrianti">Gustavo Brianti</a><br>
