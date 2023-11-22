@@ -9,14 +9,14 @@ O objetivo desse documento é descrever o Projeto Integrador (PI) do 3º períod
 
 ## Integrantes 👩‍💻👨‍💻
 - <a href = "https://github.com/gabrielalmir">Gabriel Almir</a>
- Responsabilidades: Backend,utilizando a linguagem de Programação PHP,além disso sendo responsável pela organização da equipe.<br>
-- < a href= "https://github.com/julianoAlessandro">Juliano Alessandro dos Santos</a>
+ Responsabilidades: Backend,utilizando a linguagem de Programação PHP,além disso sendo responsável pela organização da equipe.
+- < a href="https://github.com/julianoAlessandro">Juliano Alessandro dos Santos</a>
  Responsabilidades: Consumo de API, utilização de FrameWork fastAPI, e hospedagem do código Python.<br>
 - < a href="https://github.com/RafaelAntunes2">Rafael Antunes</a>
  Responsabilidades: Consumir uma API destinada ao envio de SMS, para os usuarios,além da utilização do frameWork fastAPI e hospedagem do código Python.<br>
 - < a href="https://github.com/ogustavobrianti">Gustavo Brianti</a>
  Responsabilidades:Frontend, utilização de FrameWork Bootstrap, responsividade do site, e utilização da linguagem javascript.<br>
-- <a href="https://github.com/cwilliam956">Celso William</a>
+- <a href="https://github.com/cwilliam956">Celso William</a><br>
 Responsabilidades:Frontend,utilização do FrameWork Boostrap,responsividade do site,e utilização da linguagem javascript.<br>
 
 ## Introdução 📖
